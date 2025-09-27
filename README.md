@@ -47,7 +47,3 @@ This repository contains the official implementation of our research on **Theory
 ---
 
 
-
-**Made with ❤️ for the AI Research Community**
-
-</div>
