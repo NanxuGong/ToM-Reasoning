@@ -46,23 +46,6 @@ This repository contains the official implementation of our research on **Theory
 
 ---
 
-## 🚀 Quick Start
-
-### Prerequisites
-```bash
-pip install torch transformers vllm
-```
----
-
-## 🔬 Models
-
-### 🐌➡️⚡ Slow-to-Fast (S2F) 
-A novel architecture that learns to transition from careful, deliberate reasoning to fast, intuitive responses as confidence increases.
-
-### 🤔🎯 Think-to-Match (T2M)
-An advanced model that explicitly models the "thinking" process before matching responses to cognitive patterns.
-
----
 
 
 **Made with ❤️ for the AI Research Community**
