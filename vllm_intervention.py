@@ -57,7 +57,6 @@ class ForcePhrase:
         """Check if injection is completed"""
         return self.idx is not None and self.idx >= len(self.ids)
 
-    # vLLM 调用接口：input_ids是当前序列，logits 是 [batch, vocab]
     def __call__(self, input_ids, logits):
         # If in the injection process, force generation of injection tokens
         if self.idx is not None and self.idx < len(self.ids):
